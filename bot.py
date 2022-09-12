@@ -1,8 +1,9 @@
+import config
 import telebot
 import parse
 
-bot = telebot.TeleBot("вставьте совй токен сюда")
-myID = "вставьте сюда свой id"
+bot = telebot.TeleBot(config.TOKEN)
+myID = config.ID
 
 @bot.message_handler(commands=['start', 'help'])
 def greeting(message):
