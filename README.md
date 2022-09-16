@@ -8,9 +8,9 @@
     ```
     pip install requests bs4 telebot
     ```
-    и эту, если у вас MacOS
+    или эту, если у вас MacOS
     ```
-    pip install requests bs4 telebot
+    pip3 install requests bs4 telebot
     ```
     * Дождитесь окончания загрузки и закройте консоль
 3. Получить токен вашего бота Telegram
